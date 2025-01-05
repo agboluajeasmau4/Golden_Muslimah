@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="2.webp" type="image/x-icon">
+    <title>Pre-Order With Golden Muslimah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 500px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1da851;
+        }
+       
+        .sidebar {
+            width: 150px;
+            background-color: #fff;
+            box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .greeting {
+            background-color: #ffe4c4; /* Light beige background for the greeting */
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            opacity: 0;
+            transform: translateX(-100%);
+            animation: slide-in 1s ease-out forwards;
+        }
+        @keyframes slide-in {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #555;
+            text-align: center;
+        }
+        button {
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        button:hover {
+            background-color: #1da851;
+        }
+    
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+         /* Responsive Design */
+         @media (max-width: 768px) {
+            body {
+                flex-direction: column; /* Stack logo and content vertically */
+            }
+            .sidebar {
+                width: 100%;
+                box-shadow: none;
+                padding: 10px;
+                text-align: center;
+            }
+            .content {
+                padding: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            .greeting {
+                font-size: 16px; /* Adjust greeting size for small screens */
+            }
+            button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+        }
+    </style>
+
+     <!-- Sidebar with Logo -->
+     <div class="sidebar">
+        <img src="1.webp" alt="Logo" class="logo">
+     </div>
+
+
+      <!-- Greeting Section -->
+      <div class="greeting">
+        Hello, welcome to Golden Muslimah!
+    </div>
+
+    <div class="container">
+        <h1>Pre-Order Now!</h1>
+        <p>Click the button below to pre-order via WhatsApp.</p>
+        <button onclick="window.location.href='https://wa.me/2348050760235?text=Hello!%20I%20want%20to%20pre-order%20this%20item.'">
+            Order Now
+        </button>
+    </div>
+
+
+    <div class="container">
+        <h1>Pre-Order Now!</h1>
+        <p>Click the button below to pre-order via WhatsApp.</p>
+        <button onclick="window.location.href='https://wa.me/2348050760235?text=Hello!%20I%20want%20to%20pre-order%20this%20item.'">
+            Order Now
+        </button>
+    </div>
+    <div class="container">
+        <h1>Pre-Order Now!</h1>
+        <p>Click the button below to pre-order via WhatsApp.</p>
+        <button onclick="window.location.href='https://wa.me/2348050760235?text=Hello!%20Golden-Muslimah%20I%20want%20to%20pre-order%20this%20item.'">
+            Order Now
+        </button>
+    </div>
+</body>
+</html>
